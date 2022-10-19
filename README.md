@@ -1,5 +1,11 @@
 # vue3-sample
 
-Screenshot
+## How to run
 
-![Screenshot](/img1.png)
+```
+http-server ./www/
+```
+
+## Screenshot
+
+![Screenshot](/images/screen1.png)
