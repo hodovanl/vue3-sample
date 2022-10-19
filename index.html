@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vue.js Single-File JavaScript Component Demo</title>
+    <script src="https://unpkg.com/vue"></script>
+    <style>
+      div.bordered {
+        border: 1px solid green;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <table>
+        <tr>
+          <td>
+            <my-component-1></my-component-1>
+          </td>
+          <td style="width:50px;">
+          </td>
+          <td>
+            <my-component-2></my-component-2>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script type="module" src="MyComponent1.js"></script>
+    <script type="module" src="MyComponent2.js"></script>
+    <script type="module" src="PersonComponent.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
